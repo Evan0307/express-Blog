@@ -1,0 +1,61 @@
+Arguments: 
+  D:\softWorkspace\node.js\node.exe D:\softWorkspace\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\31295\bin;D:\softWorkspace\Git\mingw64\bin;D:\softWorkspace\Git\usr\local\bin;D:\softWorkspace\Git\usr\bin;D:\softWorkspace\Git\usr\bin;D:\softWorkspace\Git\usr\bin\bin;D:\softWorkspace\Git\usr\bin\mingw\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Program Files\Java\jdk1.8.0_112\jre\bin;D:\softWorkspace\gradle-3.5\bin;D:\softWorkspace\yarn\bin;C:\WINDOWS\System32\OpenSSH;D:\softWorkspace\nvm;D:\softWorkspace\node.js;C:\Users\31295\AppData\Local\Microsoft\WindowsApps;D:\xzj\nodejs;C:\Users\31295\AppData\Local\Yarn\bin;D:\softWorkspace\Git\usr\bin;D:\softWorkspace\node.js\node_modules\npm\bin;C:\Users\31295\AppData\Roaming\npm;D:\softWorkspace\Microsoft VS Code Insiders\bin;D:\softWorkspace\python;D:\sudo.vbs;C:\Users\31295;D:\softWorkspace\Fiddler;D:\softWorkspace\nvm;D:\softWorkspace\node.js;D:\softWorkspace\nvm;D:\softWorkspace\Microsoft VS Code\bin;C:\Users\31295\AppData\Local\Microsoft\WindowsApps;C:\program files (x86)\mydrivers\drivergenius;C:\program files (x86)\mydrivers\drivergenius\ksoft;D:\softWorkspace\Git\usr\bin\vendor_perl;D:\softWorkspace\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://npm.dianrong.com/express: Request "http://npm.dianrong.com/express" returned a 403
+      at Request.params.callback [as _callback] (D:\softWorkspace\yarn\lib\cli.js:65333:18)
+      at Request.self.callback (D:\softWorkspace\yarn\lib\cli.js:133155:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (D:\softWorkspace\yarn\lib\cli.js:134138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (D:\softWorkspace\yarn\lib\cli.js:134058:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "express-blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Evan0307/express-Blog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Evan0307/express-Blog/issues"
+    },
+    "homepage": "https://github.com/Evan0307/express-Blog#readme",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
